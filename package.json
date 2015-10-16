@@ -1,0 +1,15 @@
+{
+  "name": "array-sort",
+  "version": "0.0.1",
+  "description": "Simple module for sorting arrays",
+  "main": "array-sort.js",
+  "scripts": {
+    "test": "jasmine spec/array-sort_spec.js"
+  },
+  "keywords": [
+    "array",
+    "sort"
+  ],
+  "author": "Nikita Korostelev",
+  "license": "ISC"
+}
