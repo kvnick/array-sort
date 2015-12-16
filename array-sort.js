@@ -19,11 +19,7 @@ module.exports = (function() {
 
     // todo: mmm.. i think it's horrible
     if (typeof desc === 'boolean') {
-      if (desc === true) {
-        desc = -1;
-      } else {
-        desc = 1;
-      }
+      desc = (desc === true) ? -1 : 1;
     } else if (desc == null) {
       desc = 1;
     } else {

@@ -24,7 +24,7 @@ console.log('--------------------------');
 console.log('-- before sorting by Id --');
 console.log('--------------------------');
 arraySort.render(users);
-arraySort.sortBy(users, 'id');
+arraySort.sortBy(users, 'id', true);
 console.log('-------------------------');
 console.log('-- after sorting by Id --');
 console.log('-------------------------');
