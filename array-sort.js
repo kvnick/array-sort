@@ -17,6 +17,7 @@ module.exports = (function() {
       return false;
     }
 
+    // some changes on dev
     // todo: mmm.. i think it's horrible
     if (typeof desc === 'boolean') {
       desc = (desc === true) ? -1 : 1;
